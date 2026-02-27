@@ -3,7 +3,8 @@ public class Precision
 {
     // Add your code here
     public int MaxInteger = 2147483647;
-    public double DecimalProduct = 2.53468 * 5.75956733;
+    // use decimal type and decimal literals so the product matches the expected precision
+    public decimal DecimalProduct = 2.53468m * 5.75956733m;
 
 }
 
